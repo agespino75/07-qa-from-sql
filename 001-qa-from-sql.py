@@ -20,6 +20,7 @@ chain = create_sql_query_chain(llm, db)
 response = chain.invoke({"question": "List the species of trees that are present in San Francisco"})
 
 print("\n----------\n")
+print(chain)
 
 print("List the species of trees that are present in San Francisco")
 
